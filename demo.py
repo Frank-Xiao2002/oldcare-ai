@@ -8,7 +8,7 @@ counter = 0
 while source.isOpened():
     ret, frame = source.read()
     if not ret:
-        print('Source has stopped!')
+        print('Source open fail!')
         break
     if counter == 0:
         frame = circle_faces(frame)
