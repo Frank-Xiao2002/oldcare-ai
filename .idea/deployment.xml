@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="gpu-ecs-beijing" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="gpu-ecs-beijing">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/oldcare-ai" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
