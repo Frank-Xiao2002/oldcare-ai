@@ -1,21 +1,10 @@
-import cv2
+import time
 
-from models.find_face import circle_faces
+from models.find_face import mark_faces_video
 
 live_url = 'rtmp://play.live.frankxxj.top/oldcare/source1'
-source = cv2.VideoCapture(live_url)
-counter = 0
-while source.isOpened():
-    ret, frame = source.read()
-    if not ret:
-        print('Source open fail!')
-        break
-    if counter == 0:
-        frame = circle_faces(frame)
-    cv2.imshow('frame', frame)
-    counter = (counter + 1) % 5
-    if cv2.waitKey(1) & 0xFF == ord('q'):
-        break
-
-cv2.destroyAllWindows()
-source.release()
+live_url = './video1.mp4'
+start = time.time()
+mark_faces_video(live_url)
+end = time.time()
+print('cost time:', end - start, ' seconds')

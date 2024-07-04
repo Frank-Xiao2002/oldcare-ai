@@ -3,7 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="74236d69-607c-4ce4-a456-a6242ecadc48" name="gpu-ecs-beijing">
-        <fileTransfer accessType="SFTP" host="bjecs_gpu.server.frankxxj.top" port="22" sshConfigId="a1ee1d95-aed8-4947-844a-e8ddc799030f" sshConfig="root@bjecs_gpu.server.frankxxj.top:22 password">
+        <fileTransfer accessType="SFTP" host="bjecs_gpu.server.frankxxj.top" port="22" sshConfigId="a1ee1d95-aed8-4947-844a-e8ddc799030f" sshConfig="frank@bjecs_gpu.server.frankxxj.top:22 password">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
