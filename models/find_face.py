@@ -5,9 +5,9 @@ import face_recognition
 def mark_faces(image, process=True, face_locations=None):
     """
     Draw a rectangle around the face in the image
-    :param face_locations:
-    :param process:
-    :param image: the image frame
+    :params face_locations:
+    :params process:
+    :params image: the image frame
     :return: the processed image
     """
     if process:
@@ -22,7 +22,7 @@ def get_face_locations(image, model='hog'):
     """
     Get the face locations in the image.
 
-    :param image: frame to be processed
+    :params image: frame to be processed
     :return: A list of face locations, in the format of (top, right, bottom, left)
     """
     return face_recognition.face_locations(image, model=model)

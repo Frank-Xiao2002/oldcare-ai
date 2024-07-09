@@ -3,7 +3,10 @@
   <component name="Black">
     <option name="sdkName" value="Python 3.12 (oldcare-ai)" />
   </component>
-  <component name="ProjectRootManager" version="2" default="true" project-jdk-name="Python 3.11 (oldcare-ai)" project-jdk-type="Python SDK">
+  <component name="ProjectRootManager" version="2" default="true" project-jdk-name="Python 3.10 (oldcare-ai)" project-jdk-type="Python SDK">
     <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="PythonCompatibilityInspectionAdvertiser">
+    <option name="version" value="3" />
   </component>
 </project>

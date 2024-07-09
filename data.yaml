@@ -1,0 +1,13 @@
+train: fall/train/images
+val: fall/valid/images
+test: fall/test/images
+
+nc: 1
+names: [ 'fall' ]
+
+roboflow:
+  workspace: hero-d6kgf
+  project: yolov5-fall-detection
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/hero-d6kgf/yolov5-fall-detection/dataset/1
